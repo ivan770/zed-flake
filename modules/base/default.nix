@@ -30,7 +30,7 @@ in
     preHook = ''
       mkdir -p ~/.config/zed
 
-      rm ~/.config/zed/settings.json
+      rm -f ~/.config/zed/settings.json
       ln -s ${config.userSettingsFile.path} ~/.config/zed/settings.json
     '';
   };
