@@ -7,8 +7,8 @@ _: {
       # Enable code lens support.
       code_lens = "on";
 
-      # Enable inlay hints.
-      inlay_hints.enabled = true;
+      # Disable inlay hints.
+      inlay_hints.enabled = false;
 
       # Disable autoformatting.
       format_on_save = "off";

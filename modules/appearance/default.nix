@@ -1,7 +1,10 @@
 _: {
   config.userSettings = {
     # Basic UI configuration.
-    theme = "Ayu Dark";
+    theme = "Carbonfox - opaque";
+
+    # Slightly reduce the default font size.
+    buffer_font_size = "14.00";
 
     # Disable current line highlight.
     current_line_highlight = "none";
@@ -27,6 +30,14 @@ _: {
 
       # Disable Git status in the tab bar.
       git_status = false;
+    };
+
+    # Disable toolbar entirely.
+    toolbar = {
+      breadcrumbs = false;
+      quick_actions = false;
+      selections_menu = false;
+      agent_review = false;
     };
 
     title_bar = {
