@@ -4,7 +4,8 @@ _: {
     theme = "Carbonfox - opaque";
 
     # Slightly reduce the default font size.
-    buffer_font_size = "14.00";
+    buffer_font_size = 14.00;
+    terminal.font_size = 14.00;
 
     # Disable current line highlight.
     current_line_highlight = "none";
